@@ -1,5 +1,7 @@
 pipeline {
-    agent built_in_node
+    agent {
+        label 'built_in_node'
+    }
 
     triggers {
         cron("59 23 * * 1") // Clean up every monday
