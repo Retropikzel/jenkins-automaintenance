@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'built_in_node'
+        label 'agent2'
     }
 
     triggers {
